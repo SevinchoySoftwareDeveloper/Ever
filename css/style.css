@@ -1,0 +1,101 @@
+header {
+  width: 100%;
+  height: 80px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 25%;
+  height: 80px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+header .header_logo img {
+  width: 70px;
+  height: 70px;
+}
+header .header_logo p {
+  font-size: 45px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 25px;
+  font-style: italic;
+}
+.header_text {
+  width: 45%;
+  height: 80px;
+  /* background-color: red; */
+}
+header .header_text ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header .header_text li {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  font-style: italic;
+  color: yellowgreen;
+  transition: 0.3s;
+  font-weight: 600;
+}
+header .header_text li:hover {
+  color: blue;
+}
+.header_login {
+  width: 22%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+header .header_login button {
+  width: 100px;
+  height: 33px;
+  margin-top: 15px;
+  background-color: yellow;
+  border: none;
+  color: rgb(221, 55, 34);
+  border-radius: 10px;
+  cursor: pointer;
+}
+header .header_login button:active {
+  background-color: rgb(87, 187, 87);
+  color: rgb(247, 247, 250);
+}
+nav {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1651042927_13-vsegda-pomnim-com-p-krasivie-morya-i-okeani-foto-14.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+nav h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: red;
+}
+nav input {
+  margin-left: 400px;
+  width: 400px;
+  height: 35px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  outline: none;
+}
+nav button {
+  width: 70px;
+  height: 35px;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  background-color: chartreuse;
+  color: white;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: darkolivegreen;
+}
